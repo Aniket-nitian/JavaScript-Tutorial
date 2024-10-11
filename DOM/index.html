@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document object model</title>
+  <style>
+    body{
+      background-color: black;
+      font-family: cursive;
+      color: aliceblue;
+      font-size: 20px;
+      
+    }
+  </style>
+</head>
+<body>
+  <h1 style="color: aqua;">DOM(Document object model)</h1>
+  <ol>
+    <li>console.dir(document)</li>
+    <li>Copy js path in console</li>
+  </ol>
+  <pre>   all element is an object</pre><hr>
+  <ul style="margin: 0px;">
+    <li>document.body.children[x]....</li>
+    <pre>                                          OR</pre>
+    <li>document.getElementsByTagName('ccc') <pre>    It give an array. you can use it like document.getElementsByTagName('ccc')[1,2....]</pre></li>
+    <li>document.getElementsByClassName('ccc')  <pre>    It give an array. you can use it like document.getElementsByTagName('ccc')[1,2....]</pre></li>
+    <li>document.getElementById('ccc')</li>
+    <li>document.querySelector('ccc',#ccc,.ccc)</li>
+    <li>document.querySelectorAll('ccc','#ccc','.ccc','[alt='',.....etc]'') <pre>    It gives a node list</pre></li><br>
+    <pre style="color: brown; font-family: arial; margin: 0px; padding: 0px;">We can use ELEMENT/TAGname.querySelector('cccc') to work/scan on particular element/tag, rather than doing document.querySelector('ccc')</pre>
+  </ul>
+
+  <h2 style="color: aqua;">Difference between innerText and innerContent</h2>
+  <p>innerText = text without HTML and CSS properties</p>
+  <p>innerContent = text with HTML and CSS properties</p>
+  <br><h2 style="color: aqua;">Difference between getAttribute('cccc') abd setAttribute('key','value')</h2>
+  <ul>
+    <li>.getAttributes access/gives the value of the attribut  e</li>
+    <li>
+      .setAttribute provide attributes and value(Key,value pair) to an element/tag.
+    </li>
+  </ul>
+   
+
+   
+</body>
+</html>
