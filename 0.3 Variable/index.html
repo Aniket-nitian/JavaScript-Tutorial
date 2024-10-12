@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variables in JS</title>
+  <style>
+    body{
+      background-color: black;
+      color: white;
+      font-family: cursive;
+    }
+    h1{
+      color: aqua;
+    }
+    h2{
+      color: blueviolet;
+    }
+    h4{
+      color: brown;
+    }
+  </style>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Variables in JS</h1>
+  <h2>A javaScript variable is just a name of storage location</h2>
+  <pre>And we can give thatr name in thre  ways.</pre>
+  <ul><li>
+    Using let keyword.
+  </li>
+<li>Using const keyword.</li>
+<li>Using var keyword.</li>
+</ul>
+<pre>Example:
+  let firstName = 'Aniket'
+  let age = 21
+  let isHappy = true
+
+  let userIntro = 'Hi! my  name is ' + firstName + 'and  I am ' + age +'years old.'
+
+  firstName = 'Chauhan'
+</pre>
+<img src="image/memoryLocation.png" alt="Memory interafce " width="50%" height="40%">
+
+<h4>
+  const value can't be change further and initialization is compulsary.
+</h4>
+<p>let and const is block scope variable.</p>
+<p>var is global scoped variable.</p>
+<p>let and const must be initialized before use, otherwise it well give error but in case if var it will give undefined(it's a value).</p>
+
+<h2>rules for naming variables</h2>
+<h4>A variable contains any for the following characters but must not start with a digit</h4>
+<ol>
+  <li>
+    Capital letters: A to Z
+  </li>
+  <li>
+    small letters: a to z
+  </li>
+  <li>
+    Digits: 0 to 9(but we can't starts with it.)
+  </li>
+  <li>only the special character used: $ and _</li>
+</ol>
+</body>
+</html>
