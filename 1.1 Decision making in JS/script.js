@@ -1,5 +1,5 @@
-const userName = prompt('Enter your Name')
-const userAge = parseInt(prompt('Enter your Age'))
+const userName = prompt('Enter your Name') || 'Aniket chauhan'
+const userAge = parseInt(prompt('Enter your Age')) || 21
 const gender = prompt('Enter your gender M/F')
 const Gender = gender.toUpperCase()
 
