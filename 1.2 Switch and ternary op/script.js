@@ -20,6 +20,9 @@ switch(Grade){
       break
     case 'F':
     console.log('Better luck next time')
+      break
     default:
       console.log('Your are not a student')
 }
+
+console.log(true ? 'Aniket' : rajput)
