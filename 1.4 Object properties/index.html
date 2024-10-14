@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Object.seal() Vs Object.freeze()</title>
+    <script src="script.js"></script>
+    <style>
+      body{
+        background-color: black;
+        color: white;
+        font-family: cursive;
+      }
+      h1{
+        color: aqua;
+      }
+      h2{
+        color: blueviolet;
+      }
+      h4{
+        color: brown;
+      }
+    </style>
+  </head>
+  <body style="font-family: cursive">
+    <h1>Object.seal() Vs Object.freeze()</h1>
+
+    object.seal(objectName) -->now can't delete any ket-value pair
+    <br>
+
+    Object.freeze() -->now can't do any thing(no modification)
+
+    <h4>To see any key is present in the object or not we use a keyword(in)</h4>
+    <br>
+    e.g-'key' in objectName
+  </body>
+</html>
