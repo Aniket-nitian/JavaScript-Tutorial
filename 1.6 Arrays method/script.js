@@ -32,7 +32,7 @@ console.log(animal.sort())  //sort()
 console.log(animal.slice(2))   //slice()
 console.log(animal.slice(1,3))  //1st index se (3-1)
 
-console.log(even.splice(2,1))
+console.log(even.splice(2,1 ))
 
 
  
