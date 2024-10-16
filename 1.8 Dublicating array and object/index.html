@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Right Way of Duplicating Array & Objects</title>
+    <script src="script.js"></script>
+    <style>
+      body{
+        background-color: black;
+        color: white;
+        font-family: cursive;
+      }
+      h1{
+        color: aqua;
+      }
+      h2{
+        color: blueviolet;
+      }
+      h4{
+        color: brown;
+      }
+    </style>
+  </head>
+  <body style="font-family: cursive">
+    <h1>Right Way of Duplicating Array & Objects</h1>
+    <ul>
+      <li>
+        object.assign(obj2,obj1)
+      </li><br>
+      <li>
+        * obje2 = {...obj1} / [...array2]
+      </li><br>
+      <li>
+        y = {}.concat(x) / [],concat(x)
+      </li><br>
+      <li>z = y.slice()</li>
+    </ul>
+    <br>
+    <p>In case of multidimentional object/array use "Deep Swallow copy"</p>
+  </body>
+</html>
