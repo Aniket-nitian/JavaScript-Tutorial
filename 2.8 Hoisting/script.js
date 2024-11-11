@@ -9,9 +9,12 @@ function history(){
   console.log('I love india')
 }     //function declaration / Function definition
 
-sayHi()
+sayHiiiii()
 
-var sayHi = function (){
+ var sayHiiiii=function (){
   console.log("Hiii");
 }      // function expression / Anonymous function / Function definition
+
+console.log(x) //undefined
+var x=2
 
