@@ -49,6 +49,12 @@ const userX = {
 
 const userY = {...userX}  //spread operator
 
+const num1 = [1,4,11,7,3]
+const num2 = [11,54,61,74,3]
+
+const joined = [...num1,...num2]
+console.log(joined)
+
 userY.pata = 'manipur'
 
 console.log(userX)

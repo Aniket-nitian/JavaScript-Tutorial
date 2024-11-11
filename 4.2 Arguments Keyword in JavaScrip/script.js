@@ -31,3 +31,5 @@ const addd = (...nums) => {
   return console.log(sum)
 } 
 addd(12,3,1,4)
+
+//number*undefined == NaN
