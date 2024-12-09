@@ -3,6 +3,8 @@ console.dir(document)  //showing in a object format
 
 // See parent and children of each element??
 
+// For selecting element use copy -> copy js path (using right side of mouse) from dev tool 
+
 console.log(document.children[0])
 console.dir(document.children[0])
 
@@ -54,3 +56,4 @@ const imageChange = [
 change.forEach((image,i) => {
   image.src = imageChange[i]
 })
+
