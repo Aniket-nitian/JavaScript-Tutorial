@@ -30,3 +30,5 @@ setTimeout(()=>{
 setTimeout(()=>{
   input.blur()
 },2000)
+
+//.submit also in form
