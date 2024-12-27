@@ -1,0 +1,9 @@
+
+
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js Express application",
+  "main": "app.js",
+  "scripts": "app.js"
+}
