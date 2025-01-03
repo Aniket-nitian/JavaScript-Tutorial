@@ -25,5 +25,5 @@ const Number = age.filter((x,index) => {
 
 const add = age.reduce((accumulator,element) => {
   return accumulator + element;
-},0) //0 0+1, 0+2...
+},0) //0 0+1, 1+2...
 console.log(add)
